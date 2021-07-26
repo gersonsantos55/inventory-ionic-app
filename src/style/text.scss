@@ -1,0 +1,132 @@
+:root {
+  /** Apply dark color to ionic texts **/
+  --ion-text-color: var(--ion-color-dark);
+  --ion-text-color-rgb: var(--ion-color-dark-rgb);
+  /** Apply custom font on ionic UI **/
+  --ion-font-family: "font-regular";
+}
+
+.text {
+  padding: 0;
+  margin: 0;
+  color: var(--ion-color-dark) !important;
+  font-size: 1rem !important; // 16px
+  line-height: 1.25rem !important; // 20px
+}
+.text.center {
+  width: 100%;
+  text-align: center;
+}
+.text.right {
+  width: 100%;
+  text-align: right;
+}
+.text.label {
+  padding: 0 5px;
+  height: 15px !important;
+  line-height: 15px !important;
+}
+
+/* line-height is approximately 130% of font-size */
+
+.text.s10 {
+  font-size: 0.625rem !important; // 10px
+  line-height: 0.75rem !important; // 14px
+}
+.text.s12 {
+  font-size: 0.75rem !important; // 12px
+  line-height: 1rem !important; // 16px
+}
+.text.s14 {
+  font-size: 0.875rem !important; // 14px
+  line-height: 1.125rem !important; // 18px
+}
+.text.s18 {
+  font-size: 1.125rem !important; // 18px
+  line-height: 1.5rem !important; // 24px
+}
+.text.s20 {
+  font-size: 1.25rem !important; // 20px
+  line-height: 1.625rem !important; // 26px
+}
+.text.s22 {
+  font-size: 1.375rem !important; // 22px
+  line-height: 1.875rem !important; // 30px
+}
+.text.s24 {
+  font-size: 1.5rem !important; // 24px
+  line-height: 2rem !important; // 32px
+}
+.text.s26 {
+  font-size: 1.625rem !important; // 26px
+  line-height: 2.125rem !important; // 34px
+}
+.text.s28 {
+  font-size: 1.75rem !important; // 28px
+  line-height: 2.25rem !important; // 36px
+}
+.text.long {
+  word-wrap: break-word;
+}
+.text.clickable {
+  color: var(--ion-color-secondary) !important;
+}
+.regular {
+  font-family: "font-regular" !important;
+}
+.bold {
+  font-family: "font-bold" !important;
+}
+.underline {
+  text-decoration: underline !important;
+}
+.line-through {
+  text-decoration: line-through !important;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.ellipsis {
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+}
+
+i {
+  margin: 0;
+  padding: 0;
+}
+
+i.s8 {
+  font-size: 0.5rem !important; // 8px
+}
+i.s10 {
+  font-size: 0.625rem !important; // 10px
+}
+i.s12 {
+  font-size: 0.75rem !important; // 12px
+}
+i.s14 {
+  font-size: 0.875rem !important; // 14px
+}
+i.s18 {
+  font-size: 1.125rem !important; // 18px
+}
+i.s16 {
+  font-size: 1rem !important; // 16px
+}
+i.s20 {
+  font-size: 1.25rem !important; // 20px
+}
+i.s22 {
+  font-size: 1.375rem !important; // 22px
+}
+i.s24 {
+  font-size: 1.5rem !important; // 24px
+}
+i.s26 {
+  font-size: 1.625rem !important; // 26px
+}
+i.s28 {
+  font-size: 1.75rem !important; // 28px
+}

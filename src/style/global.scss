@@ -27,3 +27,16 @@
 
 /* Ionic theme variables */
 @import "ionic-variables.scss";
+
+/* Custom font */
+@import "font.scss";
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+strong {
+  font-family: "font-bold" !important;
+}
